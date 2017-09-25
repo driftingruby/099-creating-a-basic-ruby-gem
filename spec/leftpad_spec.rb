@@ -16,5 +16,4 @@ RSpec.describe Leftpad do
   it "leftpad with fewer padding char" do
     expect('left'.leftpad(2, '0')).to eq('left')
   end
-
 end
